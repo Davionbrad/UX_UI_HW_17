@@ -1,0 +1,89 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+
+}
+.navigation li a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-family: 'Aguafina Script', cursive;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.RSLogo {
+
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    order: 2;
+    margin: 17px 30px;
+}
+
+.article {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+#portrait {
+    top: -35px;
+    left: 0px;
+    width: 534px;
+    height: 803px;
+    /* UI Properties */
+    background: transparent url('img/p2 copyoffic.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    order: 1;
+}
+
+.home_page_text {
+    order: 3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#decText {
+    writing-mode: vertical-rl;
+    color: #E838A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.socailLink {
+    margin: 20px;
+    width: 34px;
+    height: 32px;
+    color: #E838A0;
+}
+.footerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    
+}
+.copyright {
+    font-family: 'Aguafina Script', cursive;
+    letter-spacing: 2px;
+    color: #14b5d9;
+    
+}
